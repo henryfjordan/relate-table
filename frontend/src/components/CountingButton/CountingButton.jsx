@@ -3,9 +3,9 @@ import createElement from '../../jsx-runtime.js';
 
 import './style.css'
 
-const CountingButton = () => {
+const CountingButton = (props) => {
 
-    let state = { count: 0 };
+    let state = { count: props.num || 0 };
 
     let incr = (elem) => {
         state.count += 1;
