@@ -23,10 +23,13 @@ const RequestHandler = (props) => {
     }
 
     let RequestWrapper = () => {
-        let container = <div>Waiting for request</div>
+        let container = <div class="requestHandler"></div>
 
         makeRequest().then((result) => {
-            container.replaceWith(props.responseHandler(result))
+            let newElem = props.responseHandler(result)
+            Array.isArray(newElem) ?
+                newElem.forEach((e) => container.appendChild(e)) :
+                container.replaceWith(newElem)
         })
 
         return container

@@ -1,45 +1,29 @@
 # Relate Table
 
-
+Manage your relational data!
 
 ### TODO
-```
-Who knows whatI am doing? I sure as hell do not. 
-Make a plan!
 
-I need to take a snapshot of this repo and then set up a new repo from this one
-consider finishing writeup?
+- [x] make a plan!
+- [x] create `minimal-jsx-framework` repo
+- [x] implement basic content-types fetching
+- [x] implement tables from content based on type
+- [ ] switchable tabs for content-types
+- [ ] build properc ontent api query layer
+- [ ] implement sorts ux
+- [ ] implement filters ux
+- [ ] group by? (would require extending Strapi)
+- [ ] Column type components
+- [ ] build out a POST/PUT/DELETE API layer
+- [ ] implement basic data editing
+- [ ] build out a content-type-builder api layer
+- [ ] Add new content-type ux
+- [ ] Edit content-type ux (using column type components)
+- [ ] User System
+- [ ] Make it all pretty
+- [ ] Build front page
+- [ ] Dockerize!
+- [ ] Hosting (Digital Ocean?)
+- [ ] buy domain name!
+- [ ] Show it off!
 
-then I need to go into my old repos and rip some code!
-refactor for a while
-then blamo! the tables will work?
-
-Once I have the app working again I can do what I want
-Heavy Strapi integration
-First I want to build a proper content api query layer
-Implement sorts ux
-implement filters ux
-
-group by? 
-stop here to build out components based on column type
-
-build out a POST/PUT/DELETE API layer
-implement basic data changes
-
-Think about content-types system for a minute, with mind towards UX
-Then let your light shine and add a plus button to the end of the column headers
-implement column type changes
-
-Stop to admire a working prototype
-give it some love, make it pretty
-
-show it off
-build a front page and whatnot, that's important to any project!
-
-build out a user system, priveleges for the content-type api
-get some hosting
-consider domain name? - relate-table.com, relatetable.io, relatetables.com
-
-show it off!
-project done!
-```
